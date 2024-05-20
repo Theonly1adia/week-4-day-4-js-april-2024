@@ -432,6 +432,10 @@ The first person is:
   document.write("<br>")
   // BONUS TODO: try swapping more. Can you keep track of who is where in your head?
   
+  array1[0];
+  document.write(`The first person is now`),
+  document.write(array1[0])
+ 
 </script>
 
 

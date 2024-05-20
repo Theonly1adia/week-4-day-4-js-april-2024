@@ -119,13 +119,31 @@
   // TODO: re-assign these variables
   person2 = {
     name: "betty",
-    iceCream: 
+    iceCream: "pistachio",
+    shirt: "yellow"
   };
-  person3 = {};
-  person4 = {};
-  person5 = {};
+  person3 = {
+    name: "cathy",
+    iceCream: "pistachio",
+    shirt: "green"
+  };
+  person4 = {
+    name: "danna",
+    iceCream: "choco",
+    shirt: "yellow"
+  };
+  person5 = {
+    name: "edward",
+    iceCream: "pistachio",
+    shirt: "green"
+  };
 
   document.write(`${person1.name} likes ${person1.iceCream} and is wearing a ${person1.shirt} shirt <br>`)
+  document.write(`${person2.name} likes ${person2.iceCream} and is wearing a ${person2.shirt} shirt <br>`)
+  document.write(`${person3.name} likes ${person3.iceCream} and is wearing a ${person3.shirt} shirt <br>`)
+  document.write(`${person4.name} likes ${person4.iceCream} and is wearing a ${person4.shirt} shirt <br>`)
+  document.write(`${person5.name} likes ${person5.iceCream} and is wearing a ${person5.shirt} shirt <br>`)
+ 
   // TODO: write them all out
 
 
@@ -138,9 +156,45 @@
 <script>
 
   // TODO: make at least 5 objects and assign them to variables
+  let car1= {
+    make: "Toyota",
+    model: "Camry",
+    year: "2024",
+  }
+
+  let car2 = {
+    make: "BMW",
+    model: "X3",
+    year: "2019",
+  }
+
+  let car3 = {
+    make: "Honda",
+    model: "Civic",
+    year: "2020",
+  }
+
+  let car4 = {
+    make: "Volkswagen",
+    model: "Beetle",
+    year: "2006",
+  }
+
+  let car5 = {
+    make: "Ford",
+    model: "Mustang",
+    year: "2015",
+  }
 
 
   // TODO: write them out all to the document
+
+  document.write(`This ${car1.make} ${car1.model} was made in ${car1.year}. <br>`)
+  document.write(`This ${car2.make} ${car2.model} was made in ${car2.year}. <br>`)
+  document.write(`This ${car3.make} ${car3.model} was made in ${car3.year}. <br>`)
+  document.write(`This ${car4.make} ${car4.model} was made in ${car4.year}. <br>`)
+  document.write(`This ${car5.make} ${car5.model} was made in ${car5.year}. <br>`)
+
 
 
 </script>
@@ -177,14 +231,25 @@
 
 <script>
   // TODO: make an array of some object
-  let arrayOfSomething = [
-    {},
-    {},
-    {}
+  let capitalCityArray = [
+    {
+      state: "New York",
+      capital: "Albany"
+    },
+    
+    {
+    state: "Louisiana",
+    capital: "Baton Rouge"
+    },
+    {
+      state: "Georgia",
+      capital: "Atlanta"
+    }
   ];
 
   // TODO: print them out to the document.
   // Think about combining what you know about arrays and objects. Ask for help if stuck!
+  document.write("State:",capitalCityArray[0].state; "Capital:,capitalCityArray[0].capital")
 
 </script>
   

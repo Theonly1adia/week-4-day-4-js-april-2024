@@ -32,7 +32,7 @@
 
 <p>
   Open this 
-  <a target="_blank" href="?yourName=Ami&yourJob=Developer"> example link </a> in a new window in Glitch.
+  <a target="_blank" href="?yourName=Ami&yourJob=Developer"> example link </a> for your favorite job in a new window in Glitch.
 </p>
 
 <script>
@@ -41,23 +41,36 @@
   //       follow the above example for reference
 
   params = new URLSearchParams(document.location.search);
-  yourName = params.get("yourName");
+  yourName1 = params.get("yourName");
   yourJob = params.get("yourJob");
-
-  document.write(`Hi ${yourName}, do you working at ${yourJob}?`);
+  document.write(`Hi ${yourName1}, do you like working at ${yourJob}?`);
 </script>
 
 
 <p>
   Open this 
   <!-- TODO: Try with your own params  -->
-  <a target="_blank" href=""> example link </a> in a new window in Glitch.
+  <a target="_blank" href="?yourName2=Cathy&car=BMW"> example link  </a> for your fav car in a new window in Glitch.
 </p>
 
 <script>
-  // TODO: Try to access the search params for your link above:
-  //       
-  //       follow the above example for reference
+  params = new URLSearchParams(document.location.search);
+  yourName2 = params.get("yourName2");
+  car = params.get("car");
+  document.write(`Hi ${yourName2}, what is your favorite car?  ${car}`);
+</script>
+
+<p>
+  Open this 
+  <!-- TODO: Try with your own params  -->
+  <a target="_blank" href="?yourName3=Cathy&dog=Beagle"> example link  </a> for your fav dog in a new window in Glitch.
+</p>
+
+<script>
+  params = new URLSearchParams(document.location.search);
+  yourName3 = params.get("yourName3");
+  dog = params.get("dog");
+  document.write(`Hi ${yourName3}, what is your favorite dog breed?  ${dog}`);
 </script>
 
 
